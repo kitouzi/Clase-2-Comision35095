@@ -1,0 +1,143 @@
+*
+{margin: 5px;
+padding: 10px;
+box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+body{
+    background-color: hsla(231, 93%, 39%, 0.5);
+color: #333;
+margin: 0;
+font-family: "Black Ops One", system-ui, sans-serif;
+  font-weight: 800;
+  font-width: 100%;
+  font-style: normal;
+}
+
+
+header {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: hsl(241, 80%, 33%);
+    background-image: url(../banner-949946_1280.jpg);
+    display:flex;
+    flex-direction:column-reverse;
+justify-content: space-between;
+position: sticky;
+top:0;
+
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight:weight 200;
+  font-style: normal;
+
+}
+.banner{
+    
+    background-repeat: round;
+   background-size: cover;
+    color: white;
+    font-size: 2rem;
+    font-weight: 8000;
+
+    padding: 20px;
+}
+section {
+    background-color: hsl(201, 49%, 46%);
+    color: #333;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: "Playwrite GB J", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight 400;
+    font-style: normal;
+}
+h1{
+    color:rgb(3, 3, 8);
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+    color: #9c4e4e;
+}
+h3 {
+    color: #000000
+}
+h4 {
+    color: #000000;
+}
+
+p {
+    color:#ffffff;
+    text-decoration: underline;
+
+}
+nav ol {
+    color: #36a64c;
+    text-decoration: none;
+}
+nav {
+    background-color:rgb(170, 192, 192);
+    color: #4c7526;
+
+}
+li {
+    color:hwb(0 100% 0%);
+    text-decoration: none;
+}
+figcaption {
+    color: #ffffff;
+}
+nav ul {
+    
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    display:flex;
+    list-style:none;
+    gap:1.3rem;
+    
+}
+form {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+p{
+    color:rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    width: 600px;
+
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+}
+nav a{
+    color:hsl(0, 0%, 100%);
+    background-color: hwb(0 0% 100%);
+    font-size: 0.875rem;
+    font-weight: 400;
+    list-style: normal;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+    color: hsl(0, 0%, 100%);
+    text-align: none;
+}
+.gato{
+    background-color:#ffffff;
+    width:50px;
+    position: fixed;
+
+}
